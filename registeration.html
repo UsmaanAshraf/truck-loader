@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+     <style>
+   h1{
+    color: black;
+   }
+body  {
+ 
+  background-color: skyblue;
+  color: red;
+}
+.header-site{
+   background: #000000 url("truck.jpg") ;
+}
+</style>
+</head>
+<body>
+
+<header class="header-site">
+    
+    <h1>
+        <center>
+        Registeration
+    </center>
+    </h1>
+    <div class="topnav">
+    <a class="active" href="home.html">Go Back To HomePage</a>
+</div>
+</header>
+<hr>
+<main>
+    <form>
+        First Name: <input type="text" name="firstname" pattern="[A-Z a-z]">
+        Last Name: <input type="text" name="lasttname" pattern="[A-Z a-z]"><br/><br/>
+        Email: <input type="email" name="email" pattern="\[A-z a-z]{6,}\@\[A-Z a-z]{5,}\.$"><br/><br/>
+        Password: <input type="password" name="password" minlength="6"><br/><br/>
+        Confirm Password: <input type="password" name="password" minlength="6"><br/><br/>
+        Birthday: <input type="date" name="birthday" pattern="\d{1,2}(-)\d{2}"><br/><br/>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Other">Other
+       <br/><br/> 
+    </form>
+</main>
+<div class="topnav">
+       <a class="active" href="login.html"> <input type="submit" value="Sign up"></a>
+       </div>
+<hr>
+<footer>
+    <p>Developed by <a href="us.html">Zaid Sultan and Usman Ashraf </a></p>
+    <address>
+        University of Central Punjab, Lahore
+    </address>
+    <p> Copyrights &copy; 2019 All rights reserved. </p>
+</footer>
+</body>
+</html>
