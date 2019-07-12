@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: -85px;
+	
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color : #111;
+	padding : 5px 20px;
+	border : 2px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #111;
+	color: #fff;
+}
+ul li.active a{
+	background-color: #111;
+	color: #fff;
+}
+.simple-form{
+	text-align: center;
+	margin: 100px 400px;
+}
+#registration{
+	width: 100%;
+	background-color: #051019;
+	opacity: 0.8;
+	padding: 50px 0px;
+
+}
+#button{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#ph{
+	outline: 0px;
+	width: 70px;
+	padding: 10px;
+	border-radius: 5px;
+}
+#phone{
+	width: 178px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#rd{
+
+}
+#but{
+	color: white;
+	font-size: 18px;
+}
+#butt{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+	background-color: #0c6996;
+	border: 2px solid #01010c;
+	color: aliceblue;
+	font-size: 18px;
+}
+@media (min-width: 300px) {
+
+    .wrapper {
+
+        width: 80%;
+
+        margin: auto;
+
+    }
+
+    .col-1 {width: 8.333333%;}
+
+    .col-2 {width: 16.666667%;}
+
+    .col-3 {width: 25%;}
+
+    .col-4 {width: 33.333333%;}
+
+    .col-5 {width: 41.666667%;}
+
+    .col-6 {width: 50%;}
+
+    .col-7 {width: 58.333333%;}
+
+    .col-8 {width: 66.666667%;}
+
+    .col-9 {width: 75%;}
+
+    .col-10 {width: 83.333333%;}
+
+    .col-11 {width: 91.666667%;}
+
+    .col-12 {width: 100%;}
+
+}

@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 20px;
+	max-width: 1300px;
+	margin: auto;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color : #fff;
+	padding : 5px 20px;
+	border : 2px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.team-section{
+	overflow: hidden;
+	text-align: center;
+	background: #34495e;
+	padding: 60px;
+}
+.team-section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: #fff;
+	font-size: 40px;
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px;
+}
+.ps{
+	margin-bottom: 40px;
+}
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s;
+}
+.ps a:hover > img{
+	filter: none;
+}
+.section{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: #fff;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+.section:target{
+	height: auto;
+}
+.name{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+@media (min-width: 300px) {
+
+    .wrapper {
+
+        width: 80%;
+
+        margin: auto;
+
+    }
+
+    .col-1 {width: 8.333333%;}
+
+    .col-2 {width: 16.666667%;}
+
+    .col-3 {width: 25%;}
+
+    .col-4 {width: 33.333333%;}
+
+    .col-5 {width: 41.666667%;}
+
+    .col-6 {width: 50%;}
+
+    .col-7 {width: 58.333333%;}
+
+    .col-8 {width: 66.666667%;}
+
+    .col-9 {width: 75%;}
+
+    .col-10 {width: 83.333333%;}
+
+    .col-11 {width: 91.666667%;}
+
+    .col-12 {width: 100%;}
+
+}

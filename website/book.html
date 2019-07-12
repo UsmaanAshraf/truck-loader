@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		body{
+			background-image: url("t1.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 700px;
+			background-attachment: fixed;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title>Pick-up World!</title>
+	<link rel="stylesheet" type="text/css" href="css/style6.css">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+</head>
+<body>
+		
+		<div >
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</div>
+		
+	<div class="contact-section">
+		<h1> Book Freight</h1>
+
+		<div class="border"></div>
+
+		<form class="book-form" action="book.html" method="post">
+			<input type="text" class="book-form-text" placeholder="Name" pattern="/^[a-z A-Z]$/">
+			<input type="email" class="book-form-text" placeholder="Email" pattern="/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/">
+			<input type="text" class="book-form-text" placeholder="Phone Number" pattern="/^\d{11}$/">
+			<input type="text" class="book-form-text" placeholder="Address">
+			<input type="submit" class="book-form-btn" value="Book">
+
+
+		</form>
+	</div>
+</body>
+</html>

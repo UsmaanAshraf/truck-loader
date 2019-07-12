@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		body{
+			background-image: url("t1.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 700px;
+			background-attachment: fixed;
+		}
+	</style>
+	<meta charset="utf-8">
+	<title>Pick-up World!</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+</head>
+<body>
+		
+		<div >
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</div>
+		
+	<div class="contact-section">
+		<h1> Contact Us</h1>
+
+		<div class="border"></div>
+
+		<form class="contact-form" action="contact.html" method="post">
+			<input type="text" class="contact-form-text" placeholder="Name" pattern="/^[a-z A-Z]$/">
+			<input type="email" class="contact-form-text" placeholder="Email" pattern="/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/">
+			<input type="text" class="contact-form-text" placeholder="Phone Number" pattern="/^\d{11}$/">
+			<textarea class="contact-form-text" placeholder="Message"></textarea>
+			<input type="submit" class="contact-form-btn" value="Send">
+
+
+		</form>
+	</div>
+</body>
+</html>
